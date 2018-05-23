@@ -99,13 +99,15 @@
         player.update();
         scoreBoard.update();
     }
-
+    
+    //check the collision of the player with the enemies
     function checkCollisions() {
         allEnemies.forEach(function(enemy) {
             enemy.collision();
         });
     }
-
+    
+    //check if gem is colletced
     function collectGems() {
         allGems.forEach(function(gem) {
             gem.collect();
@@ -157,16 +159,13 @@
 
         renderEntities();
 
+        //check if the game is lost
         if(isGameOver) {
             gameOverModal.render();
             gameOverModal.playAian();
-            // document.addEventListener('keyup', function(e) {
-            //     if(e.keyCode == 13) {
-            //         resetGame();
-            //     }
-            // });
         }
-
+        
+        //check if the game is won
         if(collectedGems === 3 && player.score >= 35) {
             player.resetPosition();
             youWonModal.render();
