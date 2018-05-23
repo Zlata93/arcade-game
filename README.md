@@ -1,6 +1,28 @@
-frontend-nanodegree-arcade-game
-===============================
+#Arcade Game Frogger
 
-Students should use this [rubric](https://review.udacity.com/#!/projects/2696458597/rubric) for self-checking their submission. Make sure the functions you write are **object-oriented** - either class functions (like Player and Enemy) or class prototype functions such as Enemy.prototype.checkCollisions, and that the keyword 'this' is used appropriately within your class and class prototype functions to refer to the object the function is called upon. Also be sure that the **readme.md** file is updated with your instructions on both how to 1. Run and 2. Play your arcade game.
+##About
+This game was developed as a project for FEND Udacity
 
-For detailed instructions on how to get started, check out this [guide](https://docs.google.com/document/d/1v01aScPjSWCCWQLIpFqvg3-vXLH2e8_SZQKC8jNO0Dc/pub?embedded=true).
+##How to win
+Collect all the gems and score 35 points. Avoid the bugs! 
+- each gem - 10 points;
+- cross the road and reach the river - 1 point
+
+##Instructions
+Use arrow keys to move the player in that direction
+- '← ' to move left side
+- '→' to move right side
+- '↑' to move in forward direction
+- '↓'to move in backward direction
+
+##Dependencies
+This game was built with starter files provided by [Udacity](https://github.com/udacity/frontend-nanodegree-arcade-game).
+
+##Coming Soon
+- player sprite selector
+
+##Contributing
+Anyone interested is welcome!
+
+##License
+The contents of this repository are covered under the [MIT License](License.txt).
